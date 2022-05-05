@@ -1,0 +1,62 @@
+body{
+    color: white;/*todas cores fonte fica branca*/
+    background-color: #00BFFF;/*cor de fundo do site*/
+    font-family: Arial, Helvetica, sans-serif;/*trocar fonte site*/
+}
+
+ul {
+    display: flex;/*esse display flex ele colocar um do lado outro*/
+    justify-content: space-between;
+    list-style-type: none;/* tirar esse bolinha  tava indicando texto*/
+    align-items: center;/*ele ficar centralizado*/
+    padding: 16px;/*espaçamento*/
+}
+
+a {
+    color: white;/*colocar cor do link fica branca*/
+    text-decoration: none;
+}
+
+header img {
+    width:150px; /*ele vai largura ideal para */
+    height: 150px;/*altura da img*/
+    border-radius: 50%;/*ele vai deixa img redonda*/
+    border: 5px solid black;/*ele vai contornar img com cor eu escolher*/
+}
+
+.center {/*toda vez for criar classe dentro css vc começa com .*/
+    text-align: center;/*centralizar qualquer objeto ou texto*/
+    color: black;
+
+}
+
+h1 {
+    color: black;/*esse vai trabalhar estilização dentro h1*/
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container{
+    padding: 0px 50px;/*centraliza conteudo do site*/
+}
+
+nav a:hover {
+    color: black;/*Quando passar mouse em cima link muda cor*/
+} 
